@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'login',
+    'blt',
+    'adm',
 ]
 
 MIDDLEWARE = [
@@ -85,7 +87,7 @@ WSGI_APPLICATION = 'djbilletera.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dj_billetera',
+        'NAME': 'djbilletera',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': 'localhost',
